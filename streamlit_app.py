@@ -43,9 +43,9 @@ with col4:
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        month1 = st.number_input("Departure Dates (MDY):", 1, 12, 1, 1, key=1)
+        month1 = st.number_input("Departure Date (MDY):", 1, 12, 1, 1, key=1)
         month2 = st.number_input(".", 1, 12, 1, 1, label_visibility="collapsed", key=2)
-        month3 = st.number_input("Arrival Dates (MDY):", 1, 12, 1, 1, key=3)
+        month3 = st.number_input("Arrival Date (MDY):", 1, 12, 1, 1, key=3)
         month4 = st.number_input(".", 1, 12, 1, 1, label_visibility="collapsed", key=4)
 
     with col2:
